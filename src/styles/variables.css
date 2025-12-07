@@ -1,0 +1,48 @@
+:root {
+  /* Brand Colors */
+  --primary: #1a1a1a;
+  --primary-hover: #000000;
+  --primary-light: #eff6ff;
+  
+  /* Neutral Colors */
+  --bg-body: #f8fafc;
+  --bg-card: #ffffff;
+  --text-main: #0f172a;
+  --text-secondary: #64748b;
+  --border: #e2e8f0;
+  
+  /* Status Colors */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Spacing */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.dark {
+  /* Brand Colors */
+  --primary: #ffffff;
+  --primary-hover: #e0e0e0;
+  --primary-light: #000000;
+  
+  /* Neutral Colors */
+  --bg-body: #0f172a;
+  --bg-card: #1e293b;
+  --text-main: #ffffff;
+  --text-secondary: #969696;
+  --border: #ffffff;
+  
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.5);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.5), 0 2px 4px -2px rgb(0 0 0 / 0.5);
+}
